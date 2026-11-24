@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "name": "backpack",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 2,
+    "name": "bed",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 3,
+    "name": "blanket",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 4,
+    "name": "book",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 5,
+    "name": "bottle",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 6,
+    "name": "bowl",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 7,
+    "name": "box",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 8,
+    "name": "cabinet-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 9,
+    "name": "cardboard",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 10,
+    "name": "ceiling-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 11,
+    "name": "cell phone",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 12,
+    "name": "chair",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 13,
+    "name": "clock",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 14,
+    "name": "couch",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 15,
+    "name": "counter",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 16,
+    "name": "cup",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 17,
+    "name": "curtain",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 18,
+    "name": "dining table",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 19,
+    "name": "door-stuff",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 20,
+    "name": "fire-extinguisher",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 21,
+    "name": "floor-other-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 22,
+    "name": "floor-wood",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 23,
+    "name": "flower",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 24,
+    "name": "food-other-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 25,
+    "name": "fork",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 26,
+    "name": "hair drier",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 27,
+    "name": "handbag",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 28,
+    "name": "keyboard",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 29,
+    "name": "knife",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 30,
+    "name": "laptop",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 31,
+    "name": "light",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 32,
+    "name": "microwave",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 33,
+    "name": "mirror-stuff",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 34,
+    "name": "mouse",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 35,
+    "name": "oven",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 36,
+    "name": "pan",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 37,
+    "name": "paper",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 38,
+    "name": "paper-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 39,
+    "name": "person",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 40,
+    "name": "pillow",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 41,
+    "name": "plate",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 42,
+    "name": "plug",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 43,
+    "name": "potted plant",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 44,
+    "name": "refrigerator",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 45,
+    "name": "remote",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 46,
+    "name": "rug-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 47,
+    "name": "scissor",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 48,
+    "name": "scissors",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 49,
+    "name": "shelf",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 50,
+    "name": "sink",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 51,
+    "name": "spoon",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 52,
+    "name": "st-",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 53,
+    "name": "stairs",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 54,
+    "name": "stove-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 55,
+    "name": "table-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 56,
+    "name": "teddy bear",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 57,
+    "name": "toaster",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 58,
+    "name": "toilet",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 59,
+    "name": "toothbrush",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 60,
+    "name": "towel",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 61,
+    "name": "toy",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 62,
+    "name": "trash-bin",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 63,
+    "name": "tree-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 64,
+    "name": "tv",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 65,
+    "name": "vase",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 66,
+    "name": "wall",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 67,
+    "name": "wall-brick",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 68,
+    "name": "wall-other-merged",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 69,
+    "name": "wall-stone",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 70,
+    "name": "wall-tile",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 71,
+    "name": "wall-wood",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 72,
+    "name": "wallet",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 73,
+    "name": "window-blind",
+    "supercategory": "indoor-objects"
+  },
+  {
+    "id": 74,
+    "name": "window-other",
+    "supercategory": "indoor-objects"
+  }
+]

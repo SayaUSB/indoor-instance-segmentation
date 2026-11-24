@@ -1,0 +1,15 @@
+{
+  "category_ids": [
+    30,
+    40
+  ],
+  "class_names": [
+    "laptop",
+    "pillow"
+  ],
+  "personal_images": 64,
+  "personal_instances": 64,
+  "training_scope": "all 74 original foreground classes",
+  "original_test_scope": "all classes plus matched laptop/pillow subset",
+  "excluded_personal_image_count": 49
+}

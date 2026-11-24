@@ -1,0 +1,6 @@
+case,file,source,category_id,failure,IoU_640,IoU_320_same_checkpoint,IoU_960_same_checkpoint,finding
+1,1794898796166_jpg.rf.02c2d8709d92f069802076f4990de3b2.jpg,1794898796166,30,salah kelas,0.0,0.0,0.0,Tidak ada peningkatan IoU > 0.05 ketika resolusi dinaikkan
+2,1794898795266_jpg.rf.040903773294916a5f09ffc9299f9d5a.jpg,1794898795266,30,salah kelas,0.0,0.0,0.0,Tidak ada peningkatan IoU > 0.05 ketika resolusi dinaikkan
+3,1794898795530_jpg.rf.ff87061cdfdbf145a651e89dc2d59dda.jpg,1794898795530,30,salah kelas,0.0,0.0,0.0,Tidak ada peningkatan IoU > 0.05 ketika resolusi dinaikkan
+4,1794899111511_jpg.rf.4b825f48a8774879daa77a1d5eb8ca09.jpg,1794899111511,40,salah kelas,0.0,0.0,0.0,Tidak ada peningkatan IoU > 0.05 ketika resolusi dinaikkan
+5,1794899111555_jpg.rf.ed5181fe46bb1f7daaa3e155a593335b.jpg,1794899111555,40,tidak ada prediksi kelas benar pada skor >=0.25,0.0,0.0,0.0,Tidak ada peningkatan IoU > 0.05 ketika resolusi dinaikkan

@@ -1,0 +1,20 @@
+{
+  "all_annotated": {
+    "AP": 0.006718528995756718,
+    "AP50": 0.010704641892760705,
+    "AP75": 0.007875787578757875,
+    "per_class_AP": {
+      "laptop": 0.0005657708628005657,
+      "pillow": 0.01287128712871287
+    },
+    "evaluator": "pycocotools COCOeval segm",
+    "summary": "loading annotations into memory...\nDone (t=0.00s)\ncreating index...\nindex created!\nLoading and preparing results...\nDONE (t=0.07s)\ncreating index...\nindex created!\nRunning per image evaluation...\nEvaluate annotation type *segm*\nDONE (t=0.02s).\nAccumulating evaluation results...\nDONE (t=0.01s).\n Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.007\n Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.011\n Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.008\n Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000\n Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000\n Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.009\n Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.038\n Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.038\n Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.038\n Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000\n Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000\n Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.038\n"
+  },
+  "images": 64,
+  "latency_ms": 12.689536507784238,
+  "latency_scope": "square input + GPU forward/postprocess + transfer to CPU; excludes image decode, letterbox, final mask upsampling and RLE encoding; first image excluded",
+  "domain_shift_categories": [
+    "laptop",
+    "pillow"
+  ]
+}

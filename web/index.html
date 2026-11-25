@@ -1,0 +1,32 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Segmentasi indoor · Computer Vision</title><link rel="stylesheet" href="/style.css">
+<header><div><b>Computer Vision</b><span> / </span> Week 11</div><small>NRP 5054241001</small></header>
+<main><h1>Segmentasi indoor</h1><p class="intro">Bandingkan mask tiga model pada gambar yang sama.</p>
+<div class="layout"><section class="panel"><h2>Sumber gambar</h2><div id="stage"><span id="empty">Pilih foto atau nyalakan webcam</span><img id="photo" hidden alt="Foto masukan"><video hidden id="video" playsinline muted></video></div>
+<div class="buttons"><label class="button">Pilih foto<input id="file" type="file" accept="image/*"></label><button id="cam">Nyalakan webcam</button><button id="freeze" hidden>Bekukan frame</button></div></section>
+<section class="panel"><h2>Pengaturan inferensi</h2><fieldset><legend>Model yang dibandingkan</legend><div id="models"></div></fieldset><div class="params"><label>Ukuran input<select id="size"><option>320</option><option selected>640</option><option>960</option></select></label><label>Threshold<input type="number" id="conf" min=".001" max="1" step="any" value="0.25"></label></div>
+<button class="primary" id="run">Jalankan perbandingan</button><label class="live"><input type="checkbox" id="live" disabled> Inferensi webcam berulang</label><p id="status" role="status"></p></section></div>
+<section><h2>Hasil inferensi</h2><div class="cards" id="cards"></div></section>
+<section class="panel evaluation" aria-labelledby="dataset-title">
+  <h2 id="dataset-title">Dataset dan kelas</h2>
+  <p>Data latih, validasi, dan uji asli berasal dari Panoptic Indoor Segmentation v5. Data uji mandiri berasal dari foto HP yang dianotasi di Roboflow.</p>
+  <div class="scroll">
+    <table class="dataset-table">
+      <thead><tr><th scope="col">Bagian</th><th scope="col">Dipakai untuk</th><th scope="col">Foto</th><th scope="col">Anotasi objek</th><th scope="col">Kelas beranotasi</th></tr></thead>
+      <tbody id="dataset-splits"></tbody>
+    </table>
+  </div>
+  <p id="dataset-summary" class="dataset-note"></p>
+  <details>
+    <summary id="category-heading">Daftar kelas</summary>
+    <div class="scroll">
+      <table class="category-table">
+        <thead><tr><th scope="col">Kelas</th><th scope="col">Latih</th><th scope="col">Validasi</th><th scope="col">Uji asli</th><th scope="col">Uji mandiri</th></tr></thead>
+        <tbody id="dataset-classes"></tbody>
+      </table>
+    </div>
+    <small>Angka di daftar kelas menunjukkan jumlah anotasi objek.</small>
+  </details>
+</section>
+<section class="panel evaluation"><h2>Statistik evaluasi</h2><p><strong>AP asli</strong> memakai foto uji bawaan. <strong>AP mandiri</strong> memakai foto yang saya ambil sendiri. Kedua skor dihitung untuk laptop dan bantal. Selisihnya adalah AP mandiri dikurangi AP asli.</p>
+<div class="scroll"><table><thead><tr><th>Model</th><th>AP asli</th><th>AP mandiri</th><th>Selisih</th><th>AP50 mandiri</th><th>AP75 mandiri</th><th>Waktu latih¹</th><th>VRAM puncak</th></tr></thead><tbody id="stats"></tbody></table></div>
+<details><summary>AP per kelas</summary><div class="scroll"><table><thead><tr><th>Model</th><th>Laptop · asli</th><th>Laptop · mandiri</th><th>Bantal · asli</th><th>Bantal · mandiri</th></tr></thead><tbody id="classes"></tbody></table></div></details><small>¹ Waktu eksperimen mencakup validasi. Statistik berasal dari sembilan run tersimpan.</small></section></main><script src="/app.js"></script></html>
